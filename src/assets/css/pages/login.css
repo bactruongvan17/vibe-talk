@@ -1,0 +1,53 @@
+#login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+#login-page .main-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 40px 40px 20px;
+  border-radius: 16px;
+}
+
+.main-content .title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.main-content .sub-title {
+  text-align: center;
+  font-size: 0.95em;
+  color: #8d8d8d;
+}
+
+.main-content form {
+  margin-top: 40px;
+}
+
+form label {
+  color: #ffffff;
+  font-weight: bold !important;
+  font-size: 0.95em !important;
+}
+
+form input {
+  font-size: 0.95em !important;
+}
+
+.bot-title {
+  margin-top: 20px;
+  color: #8d8d8d;
+  font-size: 0.95em;
+  font-style: italic;
+  text-align: center;
+}
+.bot-title a {
+  color: #288be3;
+}

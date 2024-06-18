@@ -1,0 +1,41 @@
+{
+  "name": "vibetalk",
+  "version": "1.0.0",
+  "description": "A Realtime Chat app",
+  "main": "dist/main.js",
+  "scripts": {
+    "vite": "vite",
+    "tsc": "tsc -w",
+    "electron": "electron .",
+    "dev": "concurrently \"npm run vite\" \"npm run tsc && npm run electron\""
+  },
+  "keywords": [],
+  "author": "Bac Truong Van<bactruongvan17@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "electron": "^31.0.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.13",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.20",
+    "framer-motion": "^11.2.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "type": "commonjs"
+}
